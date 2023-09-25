@@ -1,0 +1,3 @@
+{:paths ["src"]
+ :deps {org.ccil.cowan.tagsoup/tagsoup {:mvn/version "1.2.1"}
+        org.jsoup/jsoup                {:mvn/version "1.7.2"}}}
