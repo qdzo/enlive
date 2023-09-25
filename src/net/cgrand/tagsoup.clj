@@ -9,7 +9,8 @@
 ;   You must not remove this notice, or any other, from this software.
 
 (ns net.cgrand.tagsoup
-  (:require [net.cgrand.xml :as xml]))
+  (:require [net.cgrand.xml :as xml])
+  (:import (org.xml.sax InputSource)))
 
 (defn- startparse-tagsoup [s ch]
   (doto (org.ccil.cowan.tagsoup.Parser.)
